@@ -1,5 +1,7 @@
 <% if widget.gif %>
   <img data-gifffer="<%= widget.gif.try(:binary_url) %>" data-gifffer-width="100%" data-gifffer-height="auto" />
 <% else %>
-  Select a gif in widgets details view.
+  <div class="alert alert-info">
+    Select a gif in widgets details view.
+  </div>
 <% end %>
