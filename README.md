@@ -12,6 +12,20 @@ Add this line to your application Javascript Manifest:
 
     //= require scrivito_gif_control_widget
 
+## Localization
+
+The following code represents the default localization for English. Copy it to your `en.yml` and change it if necessary:
+
+```yaml
+en:
+  scrivito_gif control_widget:
+    thumbnail:
+      title: Gif Control
+      description: Add a widget to control start and stop of a gif animation with click.
+    details:
+      image_gif: Gif
+
+
 ## Customization
 
 Due to the click event the widget needs to handle, the GIF image in such a widget can only be set via the properties dialog using the Content Browser. You may want to create a corresponding filter for the Content Browser in order to find GIF binaries easier:

@@ -1,3 +1,3 @@
-<%= scrivito_details_for 'Gif' do %>
+<%= scrivito_details_for t('scrivito_gif_control_widget.details.image_gif', default: 'Gif') do %>
   <%= scrivito_image_tag widget, :gif, data: {filter_context: {image_gif: true}} %>
 <% end %>
