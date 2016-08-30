@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    scrivito_gif_control_widget (0.0.3)
+    scrivito_gif_control_widget (0.0.4)
       scrivito_sdk
 
 GEM
@@ -63,7 +63,7 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.4)
       mime-types (>= 1.16, < 4)
-    memoist (0.14.0)
+    memoist (0.15.0)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
@@ -134,4 +134,4 @@ DEPENDENCIES
   scrivito_gif_control_widget!
 
 BUNDLED WITH
-   1.11.2
+   1.12.5
