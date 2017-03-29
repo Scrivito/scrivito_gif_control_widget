@@ -24,7 +24,7 @@ en:
       description: Add a widget to control start and stop of a gif animation with click.
     details:
       image_gif: Gif
-
+```
 
 ## Customization
 
